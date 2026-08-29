@@ -35,3 +35,10 @@ i = 1
 #   print(i)
 
 
+# Questions
+
+int_list = [2,3,5,6,880,21,30.43,65,23,12]
+
+find_even = list(filter(lambda x:x%2==0, int_list))
+
+print(find_even)
