@@ -20,10 +20,23 @@
 
 # Sets Union and Intersection 
 
-s1 = {2,3,4,5,6,7}
-s2 = {9,9,7,4,5}
+# s1 = {2,3,4,5,6,7}
+# s2 = {9,9,7,4,5}
 
 # print(s1.union(s2))
 # print(s1.intersection(s2))
 # print({3,87}.issubset(s1))
 # print({3,87}.issuperset(s1))
+
+# n = int(input("enter a number"))
+
+# for i in range(1,11):
+#   # print(f"n X i",n*i )
+#   print(f"{n} X {i} = {n * i}")
+
+
+# l = ["ayush", "billionare", "Millionare", "Mock prepare", "Alok"]
+
+# for name in l:
+#   if(name.startswith("M")):
+#     print(f"MAke a {name}")
