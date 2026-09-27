@@ -40,3 +40,44 @@
 # for name in l:
 #   if(name.startswith("M")):
 #     print(f"MAke a {name}")
+
+# doing while loop
+
+# n = int(input("enter a number"))
+# i = 1
+# while(i<11):
+#   print(f"{n} X {i} = {n * i}")
+#   i = i+1
+
+
+# Find out the number of prime or not
+
+# n = int(input("enter a number : "))
+
+# for i in range(2 , n):
+#   if(n%i) == 0 :
+#     print("number is not prime")
+#     break
+#   else:
+#     print("number is prime")
+
+
+# Find the sum of natural number mere bacche
+
+# n = int(input("enter a number : "))
+# i = 1
+# sum = 0
+# while(i <= n):
+#   sum +=i
+#   i+=1
+#   # print("Total number will be :" ,sum) 
+#   print(sum)
+
+# Find facorial through for loop
+
+n = int(input("enter a number : "))
+multi = 1
+for i in range(1 , n+1):
+  multi = multi * i
+  print(f"product will be", multi)
+  
