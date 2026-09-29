@@ -75,9 +75,43 @@
 
 # Find facorial through for loop
 
-n = int(input("enter a number : "))
-multi = 1
-for i in range(1 , n+1):
-  multi = multi * i
-  print(f"product will be", multi)
-  
+# n = int(input("enter a number : "))
+# multi = 1
+# for i in range(1 , n+1):
+#   multi = multi * i
+#   print(f"product will be", multi)
+
+# //now the print star pattern
+
+# n = int(input("enter a number : "))
+
+# for i in range(1,n+1):
+#   print(" "* (n-i), end="")
+#   print("*"* (2*i-1), end="")
+#   print(" ")
+  # ========================================
+# n = int(input("enter a number : "))
+# for i in range(1,n+1):
+#   print("*"* i, end="")
+#   print(" ")
+
+
+# * *
+#  *
+# * *
+# n = int(input("enter a number : "))
+
+# for i in range(1,n+1):
+#   if(i==1 or i==n):
+#     print("*"*n, end="")
+#   else:
+#     print(" "* (n-2), end="")
+#     print("*", end="")
+#   print(" ")
+
+
+# print table in reverse order
+
+# n = int(input("enter a number : "))
+# for i in range(1,11):
+#   print(f"{n} X {11-i} = {n*(11-i)}")
